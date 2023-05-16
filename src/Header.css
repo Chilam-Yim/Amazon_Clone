@@ -1,0 +1,95 @@
+.header {
+  height: 60px;
+  background-color: #131921;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  width: 100px;
+  margin: 17px 20px 0px 20px;
+  object-fit: contain;
+}
+
+.headerSearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.headerSerachInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius:4px 0 0 4px;
+}
+
+.headerSearchIcon {
+  background-color: #f0c14b;
+  padding: 5px;
+  height: 22px  !important;
+  border-radius: 0 4px 4px 0;
+}
+
+.headerNav {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerButton {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: column;
+  color: white;
+}
+
+.button1 {
+  font-size: 10px;
+}
+
+.button2 {
+  font-size: 13px;
+  font-weight:800;
+}
+
+.basket{
+  display:flex;
+  color:white;
+  align-items: center;
+}
+
+.basketCount{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.menuBar {
+  background-color: rgb(36, 49, 67);
+  display:flex;
+  padding-top:3px;
+  padding-bottom:3px;
+  color: white;
+  font-weight: 600;
+  font-size:15px;
+}
+
+.menuIcon{
+  padding-left:10px;
+
+}
+
+.menuBar > div{
+  padding-right:12px;
+  cursor: pointer;
+}
+
+div.menuBar> div:hover{
+border: 1px solid white;
+}

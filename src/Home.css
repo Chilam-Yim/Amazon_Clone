@@ -1,0 +1,79 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.homeRow {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.homeImage {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.alertBox {
+  background-color: black;
+  opacity: 0.7;
+  width: 50%;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  height: 200px;
+  width: 700px;
+  border-radius: 10px;
+  z-index: 1000;
+  margin-top: 80px;
+  position: fixed;
+  color:white;
+  transform: translate(-50%,-50%) scale(0.1);
+  transition: transform 0.4s,top 0.4s;
+  visibility: hidden;
+}
+
+.alertBox:hover{
+opacity:100%;
+width:730px;
+transition: width 1s;
+}
+
+
+.open-alertBox{
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+    left:350px;
+    top:110px;
+}
+
+.alertIcon {
+  width: 100px;
+  object-fit: contain;
+  padding: 20px;
+  padding-left:50px;
+}
+
+.alertDetail {
+margin:auto;
+height:50%;
+ user-select: none;
+}
+
+.alertDetail > h1{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.cancelIcon{
+padding:15px;
+cursor: pointer;
+}
+
