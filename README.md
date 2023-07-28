@@ -1,5 +1,4 @@
-Unfortunately the website is not available currently but I am working on it. Stay tuned!
-Or you can download the zip file. Open your terminal and type 'npm run start' to run the project on localhost/3000
+To open the app, download the zip file. Open your terminal and type 'npm run start' to run the project on localhost/3000
 
 Disclaimer: This is an Amazon Clone for a demo only. No intention for stealing any personal information. Please do not leave your credit cards and name information.
 
