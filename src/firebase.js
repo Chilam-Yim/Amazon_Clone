@@ -5,13 +5,13 @@ import "firebase/compat/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAUW8_U1l126GFVb-ikND2qZd3g-jiMb7Y",
-    authDomain: "clone-ef99c.firebaseapp.com",
-    projectId: "clone-ef99c",
-    storageBucket: "clone-ef99c.appspot.com",
-    messagingSenderId: "996216883305",
-    appId: "1:996216883305:web:6f1f587869cb2cc6c07af8",
-    measurementId: "G-QVPZSZGYZ4"
+    apiKey: "yourAPIKey",
+    authDomain: "yourAuthDomain",
+    projectId: "yourProjectId",
+    storageBucket: "yourStorageBucket",
+    messagingSenderId: "yourMessagingSenderId",
+    appId: "yourAppId",
+    measurementId: "yourMeasurementId"
   };
 
 //we have to initialize the app and db first
