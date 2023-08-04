@@ -1,3 +1,5 @@
+Remember to locate the firebase.js first and then replace all API data with yours first.
+
 To open the app, download the zip file. Open your terminal and type 'npm run start' to run the project on localhost/3000
 
 Disclaimer: This is an Amazon Clone for a demo only. No intention for stealing any personal information. Please do not leave your credit cards and name information.
