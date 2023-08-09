@@ -4,7 +4,7 @@ To open the app, download the zip file. Open your terminal and type 'npm run sta
 
 Disclaimer: This is an Amazon Clone for a demo only. No intention for stealing any personal information. Please do not leave your credit cards and name information.
 
-I learned it on Youtube https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=27043s with the channel Clever Programmer.
+I learned it on Youtube https://www.youtube.com/watch?v=RDV3Z1KCBvo&t=27043s with the channel Clever Programmer .
 
 ![image](https://github.com/Chilam-Yim/Amazon_Clone/assets/101900770/faf984a7-3f62-4c7e-82f6-a7211b83eed6)
 
