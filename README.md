@@ -1,3 +1,5 @@
+Open https://clone-ef99c.web.app/ at Safari preferably 
+
 Remember to locate the firebase.js first and then replace all API data with yours first.
 
 To open the app, download the zip file. Open your terminal and type 'npm run start' to run the project on localhost/3000
